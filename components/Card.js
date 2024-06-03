@@ -5,7 +5,6 @@ import Location from './icons/Location';
 const Card = (props) => {
     return (
         <Link href={`/Cars/${props.id}`}>
-            <a>
                 <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl p-4">
                     <Image 
                         src={props.image}
@@ -31,7 +30,6 @@ const Card = (props) => {
                         </div>
                     </div>
                 </div>
-            </a>
         </Link>
     );
 }
