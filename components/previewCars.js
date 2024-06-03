@@ -1,4 +1,3 @@
-import React from 'react';
 import carsData from '@/Data/carsData';
 import Card from './Card';
 import Link from 'next/link';

@@ -9,7 +9,7 @@ const Sport = () => {
 
     return (
         <div className="bg-black w-full min-h-screen mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 pt-10 pb-10 ">
-            {Sports.map(sportCar=><FilterCars data={sportCar}/>)}
+            {Sports.map(sportCar=><FilterCars key={Sport.id} data={sportCar}/>)}
         </div>
     );
 }
